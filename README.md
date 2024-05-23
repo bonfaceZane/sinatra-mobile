@@ -30,3 +30,7 @@ This Turborepo has some additional tools already setup for you:
 -   [Expo](https://docs.expo.dev/) for native development
 -   [TypeScript](https://www.typescriptlang.org/) for static type checking
 -   [Prettier](https://prettier.io) for code formatting
+
+
+stylings
+https://shopify.engineering/5-ways-to-improve-your-react-native-styling-workflow
