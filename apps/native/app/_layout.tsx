@@ -1,10 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native'
 
-const list = {
-    1: 'name',
-    2: 'another',
-}
-
 export default function RootLayout() {
     return (
         <View style={styles.container}>
