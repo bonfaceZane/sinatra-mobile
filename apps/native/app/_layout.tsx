@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native'
 export default function RootLayout() {
     return (
         <View style={styles.container}>
-            <Text>Settings page</Text>
+            <Text>Settings page home!</Text>
         </View>
     )
 }
