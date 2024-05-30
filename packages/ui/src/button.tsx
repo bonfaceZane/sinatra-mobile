@@ -15,6 +15,7 @@ export function Button({ text, onClick }: ButtonProps) {
     return (
         <TouchableOpacity style={styles.button} onPress={onClick}>
             <Text style={styles.text}>{text}</Text>
+            <Text>lasdk</Text>
         </TouchableOpacity>
     )
 }
@@ -32,6 +33,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#2f80ed',
     },
     text: {
-        color: 'white',
+        color: 'red',
     },
 })
