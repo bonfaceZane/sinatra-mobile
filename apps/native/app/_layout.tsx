@@ -1,12 +1,15 @@
-import { View, Text } from "react-native"
-import React from "react"
+import { View, Text } from "react-native";
+import React from "react";
 
 const Index = () => {
-	return (
-		<View>
-			<Text>Intro page!!!</Text>
-		</View>
-	)
-}
+  return (
+    <View
+      className="flex-1 items-center justify-center w-screen
+	 h-screen"
+    >
+      <Text>Intro page!!! another one</Text>
+    </View>
+  );
+};
 
-export default Index
+export default Index;
