@@ -10,7 +10,8 @@
 		"lint": "biome lint",
 		"clean": "biome clean --all",
 		"test": "turbo run test",
-		"expo-fix": "turbo run expo-fix"
+		"expo-fix": "turbo run expo-fix",
+		"format:report": "biome check --reporter=summary"
 	},
 	"dependencies": {},
 	"devDependencies": {
