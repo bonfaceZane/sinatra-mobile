@@ -1,0 +1,21 @@
+{
+	"private": true,
+	"name": "sinatra",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"ios": "turbo run ios",
+		"android": "turbo run android",
+		"format": "biome format --write .",
+		"lint": "biome lint",
+		"clean": "biome clean --all",
+		"test": "turbo run test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}

@@ -1,9 +1,9 @@
-import { View, Text } from 'react-native'
+import { View, Text } from "react-native";
 
 export default function Home() {
-    return (
-        <View>
-            <Text>Home page try!</Text>
-        </View>
-    )
+	return (
+		<View>
+			<Text>Home page try!</Text>
+		</View>
+	);
 }
