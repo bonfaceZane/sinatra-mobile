@@ -1,10 +1,15 @@
 {
     "private": true,
     "scripts": {
-        "dev": "turbo run dev",
+        "ios": "turbo run ios",
+        "android": "turbo run android",
         "build": "turbo run build",
         "clean": "turbo run clean && rm -rf node_modules",
-        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
+        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "postinstall": "turbo run expo-install-fix",
+        "start": "turbo run start"
     },
     "devDependencies": {
         "prettier": "^3.1.1",
