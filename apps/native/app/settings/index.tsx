@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native"
 
 export default function Settings() {
 	return (
 		<View style={styles.container}>
 			<Text>Settings page try!</Text>
 		</View>
-	);
+	)
 }
 
 const styles = StyleSheet.create({
@@ -14,4 +14,4 @@ const styles = StyleSheet.create({
 		justifyContent: "center",
 		alignItems: "center",
 	},
-});
+})

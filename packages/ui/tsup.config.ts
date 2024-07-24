@@ -1,4 +1,4 @@
-import { defineConfig, Options } from "tsup";
+import { defineConfig, Options } from "tsup"
 
 export default defineConfig((options: Options) => ({
 	entry: {
@@ -12,4 +12,4 @@ export default defineConfig((options: Options) => ({
 	external: ["react"],
 	dts: true,
 	...options,
-}));
+}))

@@ -24,9 +24,10 @@
 			"arrowParentheses": "always",
 			"bracketSameLine": false,
 			"bracketSpacing": true,
-			"jsxQuoteStyle": "double",
+			"jsxQuoteStyle": "single",
 			"quoteProperties": "asNeeded",
-			"trailingCommas": "all"
+			"trailingCommas": "all",
+			"semicolons": "asNeeded"
 		}
 	},
 	"json": {

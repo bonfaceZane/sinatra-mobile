@@ -1,14 +1,14 @@
-import * as React from "react";
+import * as React from "react"
 import {
 	TouchableOpacity,
 	StyleSheet,
 	GestureResponderEvent,
 	Text,
-} from "react-native";
+} from "react-native"
 
 export interface ButtonProps {
-	text: string;
-	onClick?: (event: GestureResponderEvent) => void;
+	text: string
+	onClick?: (event: GestureResponderEvent) => void
 }
 
 export function Button({ text, onClick }: ButtonProps) {
@@ -17,7 +17,7 @@ export function Button({ text, onClick }: ButtonProps) {
 			<Text style={styles.text}>{text}</Text>
 			<Text>lasdk</Text>
 		</TouchableOpacity>
-	);
+	)
 }
 
 const styles = StyleSheet.create({
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
 	text: {
 		color: "red",
 	},
-});
+})
