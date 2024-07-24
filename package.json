@@ -10,6 +10,8 @@
 		"lint": "biome lint",
 		"clean": "biome clean --all",
 		"test": "turbo run test",
+		"stories:ios": "turbo run story:ios",
+		"stories:android": "turbo run story:android",
 		"expo-fix": "turbo run expo-fix",
 		"format:report": "biome check --reporter=summary"
 	},

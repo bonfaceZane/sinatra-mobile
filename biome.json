@@ -32,8 +32,7 @@
 	},
 	"json": {
 		"formatter": {
-			"trailingCommas": "none",
-			"indentWidth": 4
+			"trailingCommas": "none"
 		}
 	}
 }
